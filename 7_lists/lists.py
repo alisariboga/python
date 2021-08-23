@@ -107,6 +107,61 @@ try:
 except:
 	cat_index = 'No cats found'
 print(cat_index)
+#No cats found
+
+"""
+#loops
+for item_variable in list_name:
+	# Code block
+
+item_variable = list[0]
+item_variable = list[1]
+item_variable = list[N]
+"""
+
+animals = ['man', 'bear', 'pig']
+for animal in animals:
+	print(animal.upper())
+
+#MAN
+#BEAR
+#PIG
+
+"""
+#While Loop
+while condition
+	# Code block
+"""
+animals = ['man', 'bear', 'pig', 'cow', 'duck', 'horse']
+
+index = 0
+
+while index < len(animals):
+	print(animals[index])
+	index += 1
+"""
+man
+bear
+pig
+cow
+duck
+horse
+
+# Sorting and Ranges
+"""
+animals = ['man', 'bear', 'pig']
+sorted_animals = sorted(animals)
+print('Animals list:			{}'.format(animals))
+print('Sorted animals list: 	{}'.format(sorted_animals))
+animals.sort()
+print('Animals after sort method: {}'.format(animals))
+
+"""
+Animals list:			['man', 'bear', 'pig']
+Sorted animals list: 	['bear', 'man', 'pig']
+Animals after sort method: ['bear', 'man', 'pig']
+"""
+
 
 
 
