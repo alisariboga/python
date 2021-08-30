@@ -162,6 +162,52 @@ Sorted animals list: 	['bear', 'man', 'pig']
 Animals after sort method: ['bear', 'man', 'pig']
 """
 
+animals = ['man', 'bear', 'pig']
+more_animals = ['cow', 'duck', 'horse']
+all_animals = animals + more_animals
+print(all_animals)
+
+#['man', 'bear', 'pig', 'cow', 'duck', 'horse']
+
+animals = ['man', 'bear', 'pig']
+print(len(animals))
+animals.append('cow')
+print(len(animals))
+
+#3
+#4
+
+
+#Ranges
+for number in range(3):
+	print(number)
+#0
+#1
+#2
+
+for number in range(1,3):
+	print(number)
+#1
+#2
+
+for number in range(1, 10, 2):
+	print(number)
+#1
+#3
+#5
+#7
+#9
+
+animals = ['man', 'bear', 'pig', 'cow', 'duck', 'horse', 'dog']
+for number in range(0, len(animals), 2):
+	print(animals[number])
+
+"""
+man
+pig
+duck
+dog
+"""
 
 
 
